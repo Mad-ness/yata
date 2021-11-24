@@ -131,7 +131,7 @@ mod price_channel_strategy;
 pub use price_channel_strategy::PriceChannelStrategy;
 
 mod relative_strength_index;
-pub use relative_strength_index::{RelativeStrengthIndex, RSI};
+pub use relative_strength_index::{RelativeStrengthIndex, RSI, RelativeStrengthIndexInstance};
 
 mod relative_vigor_index;
 pub use relative_vigor_index::RelativeVigorIndex;
